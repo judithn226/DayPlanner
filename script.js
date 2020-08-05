@@ -92,28 +92,28 @@ saveBtnEl.on("click", function (event) {
   var input1 = $("#row1").val();
   localStorage.setItem("#row1", JSON.stringify(input1));
 
-  var input1 = $("#row2").val();
+  var input2 = $("#row2").val();
   localStorage.setItem("#row2", JSON.stringify(input2));
 
-  var input1 = $("#row3").val();
+  var input3 = $("#row3").val();
   localStorage.setItem("#row3", JSON.stringify(input3));
 
-  var input1 = $("#row4").val();
+  var input4 = $("#row4").val();
   localStorage.setItem("#row4", JSON.stringify(input4));
 
-  var input1 = $("#row5").val();
+  var input5 = $("#row5").val();
   localStorage.setItem("#row5", JSON.stringify(input5));
 
-  var input1 = $("#row6").val();
+  var input6 = $("#row6").val();
   localStorage.setItem("#row6", JSON.stringify(input6));
 
-  var input1 = $("#row7").val();
+  var input7 = $("#row7").val();
   localStorage.setItem("#row7", JSON.stringify(input7));
 
-  var input1 = $("#row8").val();
+  var input8 = $("#row8").val();
   localStorage.setItem("#row8", JSON.stringify(input8));
 
-  var input1 = $("#row9").val();
+  var input9 = $("#row9").val();
   localStorage.setItem("#row9", JSON.stringify(input9));
 
   retrieveUserInput();
